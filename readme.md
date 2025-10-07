@@ -50,7 +50,7 @@ Unlike traditional finance apps, this one emphasizes **privacy-first architectur
 
 ## 🧱 Data Model
 
-**User** (id, email, password_hash, created_at)
+- **User** (id, email, password_hash, created_at)
 - **Account** (id, user_id, name, type, currency)
 - **Transaction** (id, account_id, amount, category_id, date, notes)
 - **Category** (id, user_id, name, type)
