@@ -51,12 +51,12 @@ Unlike traditional finance apps, this one emphasizes **privacy-first architectur
 ## 🧱 Data Model
 
 **User** (id, email, password_hash, created_at)
-**Account** (id, user_id, name, type, currency)
-**Transaction** (id, account_id, amount, category_id, date, notes)
-**Category** (id, user_id, name, type)
-**Budget** (id, user_id, category_id, amount, start_date, end_date)
-**Goal** (id, user_id, name, target_amount, current_amount, deadline)
-**Bill** (id, user_id, name, amount, due_date, recurring_interval, status)
+- **Account** (id, user_id, name, type, currency)
+- **Transaction** (id, account_id, amount, category_id, date, notes)
+- **Category** (id, user_id, name, type)
+- **Budget** (id, user_id, category_id, amount, start_date, end_date)
+- **Goal** (id, user_id, name, target_amount, current_amount, deadline)
+- **Bill** (id, user_id, name, amount, due_date, recurring_interval, status)
 
 ---
 
